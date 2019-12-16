@@ -1,0 +1,143 @@
+/* Sam Hanson, 2019. */
+
+:root {
+  --buttermilk: #FFF7C0;
+  --pink: #FA7C92;
+  --green: #66AB8C;
+  --blue: #6EC4DB;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    font-family: Roboto;
+}
+
+body {
+    float: left;
+    width: 100%;
+    height: 100%;
+    /*background-color: var(--buttermilk);*/
+}
+
+#header {
+    float: left;
+    height: auto;
+    width: 100%;
+}
+
+#header-name {
+    float: left;
+    width: auto;
+    height: auto;
+    margin-left: 10px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    color: var(--pink);
+}
+
+#header-color-btn {
+    float: right;
+    width: 10%;
+    margin-top: 10px;
+    margin-right: 10px;
+    font-size: 1.00vw;
+    height: 30px;
+}
+
+#welcome-text {
+    float: left;
+    width: 100%;
+    height: 40%;
+    font-size: 20px;
+    color: var(--green);
+    text-align: center;
+}
+
+#welcome-text div h1{
+    margin-top: 10%;
+    font-size: 55px;
+    color: var(--blue)
+}
+
+#btn-list {
+    float: left;
+    width: 30%;
+    height: auto;
+    margin-left: 35%;
+    margin-right: 20%;
+}
+
+.btn-cols {
+    width: 49%;
+}
+
+#left-col-btns {
+    float: left;
+}
+
+#right-col-btns {
+    float: right;
+}
+
+.btn-opt {
+    font-size: 1.85vw;
+    margin-top: 12px;
+    width: 90%;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align: center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-opt:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-opt:focus {
+    outline: none;
+}
+
+/* Color options for buttons: */
+.btn-opt.color-1 {
+    background-image: linear-gradient(to right, #ff3399, #00ff00, #30dd8a, #ffcc66);
+    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+}
+.btn-opt.color-2 {
+    background-image: linear-gradient(to right, #ff9900, #ff0000, #fa7199, #e85a19);
+    box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
+}
+.btn-opt.color-3 {
+    background-image: linear-gradient(to right, #009245, #FCEE21, #00A8C5, #D9E021);
+    box-shadow: 0 4px 15px 0 rgba(83, 176, 57, 0.75);
+}
+.btn-opt.color-4 {
+    background-image: linear-gradient(to right, #0066ff, #852D91, #66ccff, #F24645);
+    box-shadow: 0 4px 15px 0 rgba(126, 52, 161, 0.75);
+}
+.btn-opt.color-5 {
+    background-image: linear-gradient(to right, #ed6ea0, #ff9966, #f7186a , #FBB03B);
+    box-shadow: 0 4px 15px 0 rgba(236, 116, 149, 0.75);
+}
+.btn-opt.color-6 {
+    background-image: linear-gradient(to right, #0066ff, #ff3399, #f7186a , #cc33ff);
+    box-shadow: 0 4px 15px 0 rgba(236, 116, 149, 0.75);
+}
+.btn-opt.color-7 {
+    background-image: linear-gradient(to right, #ff6600 , #cc33ff, #ff3399 , #66ff33);
+    box-shadow: 0 4px 15px 0 rgba(236, 116, 149, 0.75);
+}

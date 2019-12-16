@@ -1,11 +1,41 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset='utf-8'>
-    <title>Sam Hanson</title>
-  </head>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <title>Welcome!</title>
+    </head>
 
-  <body>
-    <h1>Hello, World!</h1>
-  </body>
+    <body>
+        <header id="header">
+            <div id="header-name">Sam Hanson</div>
+            <button id="header-color-btn" class="btn-opt color-7">Switch Colors!</button>
+        </header>
+
+        <div id="welcome-text">
+            <div><h1>Oh, hi!</h1></div>
+            Welcome to my personal website. I am currently a CS student at the University
+            of Minnesota - Twin Cities. Feel free to explore!
+        </div>
+
+        <div id="btn-list">
+            <div id="left-col-btns" class="btn-cols">
+                <a href="/resume"><button class="btn-opt color-1">Resume</button></a>
+                <a href="/cybersecurity"><button class="btn-opt color-6">Cybersecurity</button></a>
+                <button class="btn-opt color-3">About Me</button>
+            </div>
+            <div id="right-col-btns" class="btn-cols">
+                <button class="btn-opt color-4">Projects</button>
+                <button class="btn-opt color-5">Photography</button>
+                <button class="btn-opt color-2">Leadership</button>
+            </div>
+        </div>
+
+        <!-- Scripts: -->
+        <script src="header_footer.js" type="text/javascript"></script>
+    </body>
 </html>
