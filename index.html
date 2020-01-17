@@ -1,42 +1,89 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <link rel="stylesheet" type="text/css" href="css/style.css">
-        <title>Welcome!</title>
-    </head>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <title>Cybersecurity</title>
+</head>
 
-    <body>
-        <header id="header">
-            <div id="header-name">Sam Hanson</div>
-            <button id="header-color-btn" class="btn-opt color-7">Switch Colors!</button>
-        </header>
+<body>
+  <header id="header">
+    <div id="header-name">Sam Hanson</div>
+    <div id="header-title">Cybersecurity Researcher</div>
+  </header>
 
-        <div id="banner"></div>
+  <div id="banner"></div>
 
-        <div id="welcome-text">
-            <div><h1>Oh, hi!</h1></div>
-            Welcome to my personal website. I am currently a CS student at the University
-            of Minnesota - Twin Cities. I created this site to showcase the projects and
-            research I have been apart of. Feel free to explore!
+  <div id="welcome-text">
+    <div><h1>Welcome to my cybersecurity blog!</h1></div>
+    This is a place for documenting what I have learned and discovered through my research.
+    In creating this blog, I hope to share knowledge and connect with other infosec researchers.
+    My main interests lie in <b>advanced exploitation development</b> and <b>pentesting</b>,
+    basically anything from the red-team perspective.
+    Please reach out to me for any questions or concerns!
+  </div>
+
+  <div id="column-wrapper">
+
+    <div class="column-section">
+      <h2><i>The Art of Exploitation</i></h2>
+      <div id="left-col" class="cols">
+        <div class="entry">
+          <div class="title-article-desc">General Strategies for Attacking JavaScript Engines</div></br>
+          There are numerous ways to exploit JavaScript engines. In this article, we will analyze
+          several different exploitation methods that have been discovered and shared by researchers.
         </div>
-
-        <div id="column-wrapper">
-            <div id="left-col" class="cols">
-                <a href="./files/resume-private.pdf"><button class="btn-opt color-1">Resume</button></a>
-                <a href="cybersecurity.html"><button class="btn-opt color-6">Cybersecurity</button></a>
-            </div>
-            <div id="right-col" class="cols">
-                <button class="btn-opt color-4">Projects</button>
-                <button class="btn-opt color-2">About Me</button>
-                <!--<button class="btn-opt color-5">Photography</button>-->
-                <!--<button class="btn-opt color-2">Leadership</button>-->
-            </div>
+      </div>
+      <div id="right-col" class="cols">
+        <div class="entry">
+          <div class="title-article-desc"><a href="./articles/the-art-of-exploitation/fuzzing-javascript-engines.html">Semantics-aware Fuzzing for JavaScript Engines</a></div></br>
+          Check out our research paper on the effectiveness of fuzzing JavaScript engines and the
+          results we found. There is also slides linked and a video to the presentation we gave for
+          our computer security class.
         </div>
+      </div>
+    </div>
 
-    </body>
+    <div class="column-section">
+      <h2><i>Legends of the CyberSpace</i></h2>
+      <div id="left-col" class="cols">
+        <div class="entry">
+          <div class="title-article-desc">The Carna Botnet</div></br>
+          Some hack for good, some hack for bad. Some are... in the middle? Explore
+          the tale of the Carna Botnet and the worlds first Internet Census.
+        </div>
+      </div>
+      <div id="right-col" class="cols">
+        <div class="entry">
+          <div class="title-article-desc">The ShadowBrokers</div></br>
+          blah blah blah blah
+        </div>
+      </div>
+    </div>
+
+    <div class="column-section">
+      <h2><i>Cybersecurity that My Mom Could Understand</i></h2>
+      <div id="left-col" class="cols">
+        <div class="entry">
+          <div class="title-article-desc">A Guide to Cybersecurity</div></br>
+          This guide will explain cybersecurity topics so that the average person could
+          (hopefully) understand and demonstrate the scope of the problem.
+        </div>
+      </div>
+      <div id="right-col" class="cols">
+        <div class="entry">
+          <div class="title-article-desc">How Can I Protect Myself?</div></br>
+          Tips and techniques to help maintain your online privacy and protect
+          yourself from cyber threats.
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</body>
 </html>
