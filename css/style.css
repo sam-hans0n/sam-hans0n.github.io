@@ -5,7 +5,7 @@
   --main-header: #e62739;
   --pink: #FA7C92;
   --p1: black;
-  --h1: #9068be;
+  --h1: darkblue;
   --bar: #6ed3cf;
 }
 
@@ -19,7 +19,7 @@ body {
     float: left;
     width: 100%;
     height: 100%;
-    background-color: var(--body);
+    background-color: #e8e6e4;
 }
 
 #header {
@@ -27,6 +27,7 @@ body {
     height: auto;
     width: 100%;
     margin-left: 1%;
+    color: black;
 }
 
 #header-name {
@@ -36,7 +37,6 @@ body {
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
-    color: var(--main-header);
 }
 
 #header-title {
@@ -44,7 +44,6 @@ body {
   width: auto;
   clear: left;
   margin-left: 1%;
-  color: var(--main-header);
 }
 
 #header-color-btn {
@@ -60,7 +59,19 @@ body {
   float: left;
   width: 100%;
   height: 25px;
-  background-color: var(--bar);
+  background-color: #8f1a00;
+}
+
+#content-body {
+  background-color: white;
+  float: left;
+  height: auto;
+  margin-top: 1%;
+  width: 60;
+  margin-left: 20%;
+  margin-right: 20%;
+  border: 3px solid black;
+  border-radius: 5%;
 }
 
 #welcome-text {
@@ -76,15 +87,16 @@ body {
 #welcome-text div h1{
     margin-top: 5%;
     font-size: 55px;
+    font-weight: 600;
     color: var(--h1)
 }
 
 #column-wrapper {
     float: left;
-    width: 30%;
+    width: 50%;
     height: auto;
-    margin-left: 35%;
-    margin-right: 20%;
+    margin-left: 25%;
+    margin-right: 25%;
     margin-top: 20px;
     text-align: center;
 }
