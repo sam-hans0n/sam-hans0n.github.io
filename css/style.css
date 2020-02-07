@@ -5,7 +5,7 @@
   --main-header: #e62739;
   --pink: #FA7C92;
   --p1: black;
-  --h1: darkblue;
+  --h1: darkred;
   --bar: #6ed3cf;
 }
 
@@ -19,7 +19,7 @@ body {
     float: left;
     width: 100%;
     height: 100%;
-    background-color: #e8e6e4;
+    background-color: white; /*#e8e6e4;*/
 }
 
 #header {
@@ -27,7 +27,7 @@ body {
     height: auto;
     width: 100%;
     margin-left: 1%;
-    color: black;
+    color: darkred;
 }
 
 #header-name {
@@ -58,8 +58,11 @@ body {
 #banner {
   float: left;
   width: 100%;
-  height: 25px;
-  background-color: #8f1a00;
+  margin-top: 10px;
+  /*height: 25px;*/
+  height: 1px;
+  /*background-color: #8f1a00;*/
+  background-color: lightgrey;
 }
 
 #content-body {
@@ -70,8 +73,8 @@ body {
   width: 60;
   margin-left: 20%;
   margin-right: 20%;
-  border: 3px solid black;
-  border-radius: 5%;
+  /*border: 3px solid black;
+  border-radius: 5%;*/
 }
 
 #welcome-text {
@@ -86,7 +89,8 @@ body {
 
 #welcome-text div h1{
     margin-top: 5%;
-    font-size: 55px;
+    /*font-size: 55px;*/
+    font-size: 35px;
     font-weight: 600;
     color: var(--h1)
 }
@@ -200,25 +204,59 @@ body {
   margin-left: 25%;
   margin-right: 25%;
   margin-top: 5%;
-  border: 1px solid blue;
   font-family: sans-serif;
 }
 
 #article-inner-wrapper p {
+  float: left;
   margin-top: 10px;
   width: 75%;
-  margin-left: 12.5%;
-  margin-right: 12.5%;
+  margin-left: 7%;
 }
 
 #article-inner-wrapper {
   padding: 10px;
 }
 
+#article-title {
+  height: auto;
+  width: 100%;
+  font-size: 35px;
+  font-weight: 600;
+  color: var(--h1);
+  border-bottom: 1px solid lightgrey;
+}
+
+#main-article-pic {
+  float: left;
+  margin-left: 20%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#article-pic {
+  float: left;
+  clear: right;
+  width: 100%;
+}
+
+#article-pic img {
+  float: left;
+  margin-left: 12%;
+  width: 40%;
+}
+
 .section-header {
-  color: green;
+  float: left;
+  color: darkred;
   font-size: 30px;
-  margin-top: 30px;
+  margin-top: 45px;
+}
+
+.section-header p {
+  float: left;
+  font-size: 15px;
+  color: black;
 }
 
 #column-wrapper .column-section h2 {
