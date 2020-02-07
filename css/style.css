@@ -262,3 +262,40 @@ body {
 #column-wrapper .column-section h2 {
   color: var(--h1);
 }
+
+
+/* ------------- FOR MOBILE ------------- */
+
+@media only screen and (max-width: 900px) {
+
+  #content-body {
+    width: 100;
+    margin-left: 5%;
+    margin-right: 5%;
+    /*border: 3px solid black;
+    border-radius: 5%;*/
+  }
+
+  #column-wrapper {
+      width: 100%;
+      margin: 0%;
+  }
+
+  #article-body {
+    width: 100%;
+    margin: 0%;
+  }
+
+  #main-article-pic {
+    width: 100%;
+    margin: 0%;
+    margin-top: 3%;
+    margin-bottom: 10px;
+  }
+
+  #article-pic img {
+    float: left;
+    width: 70%;
+  }
+
+}
