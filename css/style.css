@@ -237,8 +237,9 @@ body {
 
 #malware-warning-png {
   float: left;
-  height: 200px;
-  width: 300px;
+  margin-left: 25%;
+  height: 15%;
+  width: 45%;
 }
 
 #article-pic {
