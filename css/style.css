@@ -267,6 +267,18 @@ body {
   color: black;
 }
 
+.scrollable {
+  float: left;
+  width: 80%;
+  height: 15%;
+  overflow-y: scroll;
+  margin-left: 7.5%;
+  margin-right: 10%;
+  font-size: 12px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
 #column-wrapper .column-section h2 {
   color: var(--h1);
 }
