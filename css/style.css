@@ -283,6 +283,16 @@ body {
   color: var(--h1);
 }
 
+#website-credit {
+  float: left;
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
+  font-size: 10px;
+  color: var(--p1);
+  text-align: center;
+}
+
 
 /* ------------- FOR MOBILE ------------- */
 
