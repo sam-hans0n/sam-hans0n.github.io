@@ -22,6 +22,10 @@ body {
     background-color: white; /*#e8e6e4;*/
 }
 
+ul{
+  float: left;
+  top: 5px;
+}
 
 #header {
     float: left;
