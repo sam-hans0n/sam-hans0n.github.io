@@ -41,7 +41,7 @@ body {
 
 #header-title {
   float: left;
-  width: auto;
+  width: 10%;
   clear: left;
   margin-left: 1%;
 }
@@ -49,8 +49,7 @@ body {
 #header-color-btn {
     float: right;
     width: 10%;
-    margin-top: 10px;
-    margin-right: 10px;
+    margin-right: 2.5%;
     font-size: 1.00vw;
     height: 30px;
 }
