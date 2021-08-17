@@ -123,11 +123,11 @@ ul{
 }
 
 .btn-opt {
-    font-size: 1.65vw;
+    font-weight: bold;
     margin-top: 12px;
     width: 90%;
-    font-weight: 600;
-    color: #fff;
+    color: var(--bar);
+    background-color: var(--h1);
     cursor: pointer;
     margin: 20px;
     height: 55px;
@@ -135,18 +135,18 @@ ul{
     border: none;
     background-size: 300% 100%;
     border-radius: 50px;
-    moz-transition: all .4s ease-in-out;
+    /*moz-transition: all .4s ease-in-out;
     -o-transition: all .4s ease-in-out;
     -webkit-transition: all .4s ease-in-out;
-    transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;*/
 }
 
 .btn-opt:hover {
     background-position: 100% 0;
-    moz-transition: all .4s ease-in-out;
+    /*moz-transition: all .4s ease-in-out;
     -o-transition: all .4s ease-in-out;
     -webkit-transition: all .4s ease-in-out;
-    transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;*/
 }
 
 .btn-opt:focus {
@@ -154,7 +154,7 @@ ul{
 }
 
 /* Color options for buttons: */
-.btn-opt.color-1 {
+/*.btn-opt.color-1 {
     background-image: linear-gradient(to right, #ff3399, #00ff00, #30dd8a, #ffcc66);
     box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
 }
@@ -181,7 +181,7 @@ ul{
 .btn-opt.color-7 {
     background-image: linear-gradient(to right, #ff6600 , #cc33ff, #ff3399 , #66ff33);
     box-shadow: 0 4px 15px 0 rgba(236, 116, 149, 0.75);
-}
+}*/
 
 .column-section {
   float: left;
