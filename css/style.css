@@ -1,5 +1,4 @@
 /* Sam Hanson, 2019. */
-
 :root {
   --body: white;
   --main-header: #e62739;
@@ -135,53 +134,15 @@ ul{
     border: none;
     background-size: 300% 100%;
     border-radius: 50px;
-    /*moz-transition: all .4s ease-in-out;
-    -o-transition: all .4s ease-in-out;
-    -webkit-transition: all .4s ease-in-out;
-    transition: all .4s ease-in-out;*/
 }
 
 .btn-opt:hover {
     background-position: 100% 0;
-    /*moz-transition: all .4s ease-in-out;
-    -o-transition: all .4s ease-in-out;
-    -webkit-transition: all .4s ease-in-out;
-    transition: all .4s ease-in-out;*/
 }
 
 .btn-opt:focus {
     outline: none;
 }
-
-/* Color options for buttons: */
-/*.btn-opt.color-1 {
-    background-image: linear-gradient(to right, #ff3399, #00ff00, #30dd8a, #ffcc66);
-    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
-}
-.btn-opt.color-2 {
-    background-image: linear-gradient(to right, #ff9900, #ff0000, #fa7199, #e85a19);
-    box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
-}
-.btn-opt.color-3 {
-    background-image: linear-gradient(to right, #009245, #FCEE21, #00A8C5, #D9E021);
-    box-shadow: 0 4px 15px 0 rgba(83, 176, 57, 0.75);
-}
-.btn-opt.color-4 {
-    background-image: linear-gradient(to right, #0066ff, #852D91, #66ccff, #F24645);
-    box-shadow: 0 4px 15px 0 rgba(126, 52, 161, 0.75);
-}
-.btn-opt.color-5 {
-    background-image: linear-gradient(to right, #ed6ea0, #ff9966, #f7186a , #FBB03B);
-    box-shadow: 0 4px 15px 0 rgba(236, 116, 149, 0.75);
-}
-.btn-opt.color-6 {
-    background-image: linear-gradient(to right, #0066ff, #ff3399, #f7186a , #cc33ff);
-    box-shadow: 0 4px 15px 0 rgba(236, 116, 149, 0.75);
-}
-.btn-opt.color-7 {
-    background-image: linear-gradient(to right, #ff6600 , #cc33ff, #ff3399 , #66ff33);
-    box-shadow: 0 4px 15px 0 rgba(236, 116, 149, 0.75);
-}*/
 
 .column-section {
   float: left;
