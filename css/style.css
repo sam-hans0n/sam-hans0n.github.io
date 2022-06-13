@@ -269,7 +269,7 @@ ul{
 @media only screen and (max-width: 900px) {
 
   #content-body {
-    width: 100;
+    width: 100%;
     margin-left: 5%;
     margin-right: 5%;
     /*border: 3px solid black;
@@ -277,7 +277,7 @@ ul{
   }
 
   #column-wrapper {
-      width: 100%;
+      width: 87%;
       margin: 0%;
   }
 
