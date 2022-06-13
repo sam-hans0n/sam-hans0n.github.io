@@ -121,6 +121,11 @@ ul{
     float: right;
 }
 
+#vuln-ellipsis {
+    font-size: 15px;
+    font-weight: bold;
+}
+
 .btn-opt {
     font-weight: bold;
     margin-top: 12px;
