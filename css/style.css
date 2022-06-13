@@ -263,6 +263,15 @@ ul{
   text-align: center;
 }
 
+#cve-table {
+  margin-top: 1%;
+}
+
+table, th, td {
+  border: 1px solid;
+  padding: 5px;
+}
+
 
 /* ------------- FOR MOBILE ------------- */
 
