@@ -265,6 +265,7 @@ ul{
 
 #cve-table {
   margin-top: 1%;
+  font-size: 15px;
 }
 
 table, th, td {
@@ -305,6 +306,11 @@ table, th, td {
   #article-pic img {
     float: left;
     width: 70%;
+  }
+
+  table, th, td {
+    border: 1px solid;
+    font-size: 12px;
   }
 
 }
