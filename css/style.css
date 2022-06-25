@@ -30,7 +30,6 @@ ul{
     float: left;
     height: auto;
     width: 100%;
-    margin-left: 1%;
     color: darkred;
 }
 
@@ -73,7 +72,7 @@ ul{
   float: left;
   height: auto;
   margin-top: 1%;
-  width: 60;
+  width: 60%;
   margin-left: 20%;
   margin-right: 20%;
   /*border: 3px solid black;
