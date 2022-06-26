@@ -267,6 +267,10 @@ ul{
   font-size: 15px;
 }
 
+table {
+  width: 75%;
+}
+
 table, th, td {
   border: 1px solid;
   padding: 5px;
@@ -307,9 +311,13 @@ table, th, td {
     width: 70%;
   }
 
+  #cve-table {
+
+  }
+
   table, th, td {
     border: 1px solid;
-    font-size: 12px;
+    font-size: 10px;
   }
 
 }
