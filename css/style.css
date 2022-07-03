@@ -265,15 +265,38 @@ ul{
 #cve-table {
   margin-top: 1%;
   font-size: 15px;
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+#cve-table thead tr {
+    background-color: darkred;
+    color: #ffffff;
+    text-align: left;
 }
 
 table {
   width: 75%;
 }
 
-table, th, td {
-  border: 1px solid;
-  padding: 5px;
+
+#cve-table th, #cve-table td {
+    padding: 12px 15px;
+}
+
+#cve-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+#cve-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+#cve-table tbody tr:last-of-type {
+    border-bottom: 2px solid darkred;
 }
 
 
@@ -311,13 +334,9 @@ table, th, td {
     width: 70%;
   }
 
-  #cve-table {
-
-  }
-
   table, th, td {
-    border: 1px solid;
     font-size: 10px;
   }
+
 
 }
