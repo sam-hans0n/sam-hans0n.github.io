@@ -1,40 +1,87 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <link rel="stylesheet" type="text/css" href="css/style.css">
-        <title>Welcome!</title>
-    </head>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+  <title>Cybersecurity</title>
+</head>
 
-    <body>
-        <header id="header">
-            <div id="header-name">Sam Hanson</div>
-            <div id="header-title">Cybersecurity Research</div>
-            <!--<button id="header-color-btn" class="btn-opt color-7">Switch Colors!</button>-->
-        </header>
+<body>
+  <header id="header">
+    <div id="header-name">Sam Hanson</div>
+    <div id="header-title">Cybersecurity Researcher</div>
+  </header>
 
+  <div id="banner"></div>
 
-        <div id="banner"></div>
+  <div id="content-body">
+    <div id="welcome-text">
+      <div><h1>Vulnerability Research and Malware Analysis</h1></div>
+      This is a place for documenting what I have learned and discovered through my research.
+      In creating this blog, I hope to share knowledge and connect with other infosec researchers.
+      My main interests lie in <b>vulnerability research</b>, <b>malware analysis</b>,
+      and <b>binary exploitation</b>.
+    </div>
 
-        <div id="welcome-text">
-            <div><h1>Oh, hi!</h1></div>
-            Welcome to my website! I am a security researcher with a passion for the outdoors. Feel free to explore!
+    <div id="column-wrapper">
+
+      <div class="column-section">
+        <h2><i>Personal and Professional Research</i></h2>
+
+        <div id="left-col" class="cols">
+          <div class="entry">
+
+            <div class="title-article-desc">Vulnerabilities Discovered</div>
+            <ul>
+              <li><a href="https://www.cisa.gov/uscert/ics/advisories/icsa-22-167-03">CVE-2022-2003</a>: Exposure of Sensitive Information to Unauthorized Actor </li>
+              <li><a href="https://www.cisa.gov/uscert/ics/advisories/icsa-22-167-03">CVE-2022-2004</a>: Denial of Service </li>
+              <li><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-42796">CVE-2021-42796</a>: Improper Access Control </li>
+              <center id="vuln-ellipsis"></br><a href="./cyber-blog/vulnerabilities.html">...see complete list...</a></center>
+           </ul>
+          </div>
+          <div class="entry">
+            <div class="title-article-desc">The Art of Exploitation</div>
+            <ul>
+                <li><a href="./cyber-blog/blog-posts/the-art-of-exploitation/unc-path-injection.html">UNC Path Injection</a></li>
+                <li><a href="./cyber-blog/blog-posts/the-art-of-exploitation/dll-hijacking.html">DLL Hijacking</a></li>
+            </ul>
+          </div>
         </div>
 
-        <div id="column-wrapper">
-            <div id="left-col" class="cols">
-                <a href="./cyber-blog/index.html"><button class="btn-opt">Cybersecurity Blog</button></a>
-                <a href="https://github.com/sam-hans0n"><button class="btn-opt">Github Profile</button></a>
-            </div>
-            <div id="right-col" class="cols">
-                <button class="btn-opt">Adventures</button>
-                <a href="./files/resume-private.pdf"><button class="btn-opt">Resume</button></a>
-            </div>
+        <div id="right-col" class="cols">
+          <div class="entry">
+              <div class="title-article-desc">Public Webinars and Blogs</div>
+              <ul>
+                <li><a href="./cyber-blog/blog-posts/plc-password-cracker.html">PLC Password Cracking Malware Blog</a></li>
+                <li><a href="https://hub.dragos.com/on-demand/pipedream-malware-chernovite-activity-group">Dragos PIPEDREAM Malware Intelligence Briefing Webinar</a></li>
+                <li><a href="https://www.youtube.com/watch?v=W4SMVY1UbOQ&t=1518s&ab_channel=Dragos%2CInc%3AICSCybersecurity">Examining ICS Vulnerabilities Webinar</a></li>
+                <li><a href="https://www.youtube.com/watch?v=cBxtp2F5T_I">ICS/OT Year in Review: Vulnerability Briefing Webinar</a></li>
+              </ul>
+          </div>
+          <div class="entry">
+          </br></br>
+              <div class="title-article-desc">Others</div>
+              <ul>
+                <li><a href="./files/resume-private.pdf">Resume</a></li>
+                <li><a href="https://github.com/sam-hans0n">Github</a></li>
+              </ul>
+          </div>
+          <div class="entry">
+            <!--<div class="title-article-desc">Maurice The Malz Machine</div>
+            Maurice is an automatic malware analyzer and collector developed to
+            help ease the malware collection process and identify new unique samples.
+          </div> -->
         </div>
+      </div>
 
-    </body>
+    </div>
+
+    <div id="website-credit">Website crafted by hand and hosted via Github pages.</div>
+  </div>
+
+</body>
 </html>
