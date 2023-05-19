@@ -7,7 +7,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="../../css/style.css">
-    <title>Trojan Horse Malware</title>
+    <title>Public Research</title>
   </head>
 
   <body>
@@ -22,21 +22,46 @@
 
     <div id="content-body">
       <div id="welcome-text">
-        <div><h1>The Story of the PLC Password Cracking Malware</h1></div><br>
-        <img style="height: 60%; width: 60%;" src="../../files/images/trojan-horse-malware.jpeg"></img>
-        <div><h5><a href="https://www.dragos.com/blog/the-trojan-horse-malware-password-cracking-ecosystem-targeting-industrial-operators/">Check out the blog I wrote for Dragos!</a></h5></div><br>
-        In early 2022, I was doing a vulnerability assessment targeting Automation Direct's DirectLogic
-        06 <a href="https://en.wikipedia.org/wiki/Programmable_logic_controller">Programmable Logic Controller (PLC)
-        </a> and C-More EA9 <a href="https://csrc.nist.gov/glossary/term/human_machine_interface">Human-Machine Interface (HMI)</a>
-        when I stumbled upon an interesting <a href="https://www.youtube.com/watch?v=FkQFiyz5MxY">Youtube video</a> demonstrating
-        self-proclaimed PLC password "cracking" software where an operator could pay an unknown actor for their software which, when ran on a <picture>
-        that is hooked up to the device, could retrieve it's password.
-        <br><br>
+        <div><h1>Complete List of Public Research</h1></div><br>
+        While most of my technical research into industrial cybersecurity is
+        proprietary to Dragos, some of my work has been published publicly.
+        Here is a complete list of all my publicly available research.
 
-        I was immediately suspicious. Basic <a href="https://www.sentinelone.com/cybersecurity-101/open-source-intelligence-osint/">
-        OSINT analysis</a> indicated there was a large number of publicly available samples targeting a variety of industrial devices
-        and vendors. So, I obtained a few samples and got to work <a href="https://en.wikipedia.org/wiki/Reverse_engineering">reverse engineering</a> via <a href="https://en.wikipedia.org/wiki/Static_program_analysis">static</a> and <a href="https://en.wikipedia.org/wiki/Dynamic_program_analysis">dynamic</a> binary analysis.
-        This research project lead to some interesting findings and I wrote a blog for Dragos, which got picked up by a few technology-related sites, check them out:<br>
+
+        <br><br><br>
+        <b>Malware Analysis</b>
+        <ul style="font-size: 15px; text-align: left; margin-left: 10%; margin-right: 10%; margin-bottom: 10%;">
+          <li>Dragos Blog: <a href="https://www.dragos.com/blog/pipedream-mousehole-opcua-module/">Deep Dive Into PIPEDREAM's OPC UA Module, MOUSEHOLE</a></li>
+          <li>Dragos Webinar: <a href="https://hub.dragos.com/on-demand/pipedream-malware-chernovite-activity-group">PIPEDREAM Malware and the CHERNOVITE Threat Group</a></li>
+          <li>Dragos Blog: <a href="https://www.dragos.com/blog/the-trojan-horse-malware-password-cracking-ecosystem-targeting-industrial-operators/">The Trojan Horse Malware & Password "Cracking" Ecosystem Targeting Industrial Operators</a></li>
+        </ul>
+
+
+        <br><br><br>
+        <b>Vulnerability Research and Analysis</b>
+        <ul style="font-size: 15px; text-align: left; margin-left: 10%; margin-right: 10%; margin-bottom: 10%;">
+          <li><a href="../vulnerabilities.html">Full Listing of CVEs</a></li>
+          <li>Dragos Webinar: <a href="https://www.youtube.com/watch?v=cBxtp2F5T_I">2021 Dragos Examining ICS Vulnerabilities</a></li>
+          <li>Dragos Webinar: <a href="https://www.youtube.com/watch?v=W4SMVY1UbOQ">2020 Dragos Examining ICS Vulnerabilities</a></li>
+        </ul>
+
+
+
+
+
+        <br><br><br><br><br><br>
+        <div><h1>Media Coverage of My Work</h1></div><br>
+        Some projects were covered extensively in smaller media
+        sites. This was You can find them here:
+
+        <br><br><br>
+        <b>Vulnerability Research Against DirectLogic 06 PLC and C-More HMI</b>
+        <ul style="font-size: 15px; text-align: left; margin-left: 10%; margin-right: 10%; margin-bottom: 10%;">
+          <li>Security Week: <a href="https://www.securityweek.com/automationdirect-patches-vulnerabilities-plc-hmi-products/">AutomationDirect Patches Vulnerabilities in PLC, HMI Products</a></li>
+        </ul>
+
+        <br><br><br>
+        <b>Trojan Horse Password Cracking Research:</b>
         <ul style="font-size: 15px; text-align: left; margin-left: 10%; margin-right: 10%; margin-bottom: 10%;">
           <li>Dragos: <a href="https://www.dragos.com/blog/the-trojan-horse-malware-password-cracking-ecosystem-targeting-industrial-operators/">The Trojan Horse Malware & Password “Cracking” Ecosystem Targeting Industrial Operators</a></li>
           <li>Ars Technica: <a href="https://arstechnica.com/information-technology/2022/07/malware-circulating-online-wrangles-industrial-systems-into-a-botnet/">Hackers are targeting industrial systems with malware</a></li>
@@ -48,9 +73,6 @@
           <li>HelpNet Security: <a href="https://www.helpnetsecurity.com/2022/07/18/password-cracking-plcs-hmis/">Beware of password-cracking software for PLCs and HMIs!</a></li>
           <li>The Tech Outlook: <a href="https://www.thetechoutlook.com/news/technology/security/hackers-targeting-industrial-plcs-with-a-new-password-cracking-tool-by-remaining-undetected/">Hackers targeting industrial PLCs with a new password cracking tool by remaining undetected</a></li>
         </ul>
-
-        <br><br><br>
-        This research lead to a variety of CVEs as well. Check out my <a href="../vulnerabilities.html">list of discovered vulnerabilities</a> to see some public information on them.
 
         <br><br>
 
