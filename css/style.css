@@ -101,6 +101,20 @@ ul li {
     color: var(--h1)
 }
 
+#welcome-text b{
+  float: left;
+  width: 100%;
+  margin-left: auto;
+}
+
+#media-coverage {
+  float: left;
+  margin-left:10%;
+  margin-bottom: 5%;
+  width:80%;
+}
+
+
 #column-wrapper {
     float: left;
     width: 50%;
