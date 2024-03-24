@@ -1,4 +1,4 @@
-/* Sam Hanson, 2019-2022 (and beyond!). */
+/* Sam Hanson, 2019-2024 (and beyond!). */
 :root {
   --body: white;
   --main-header: #e62739;
@@ -99,12 +99,6 @@ ul li {
     font-size: 35px;
     font-weight: 600;
     color: var(--h1)
-}
-
-#welcome-text b{
-  float: left;
-  width: 100%;
-  margin-left: auto;
 }
 
 #media-coverage {
