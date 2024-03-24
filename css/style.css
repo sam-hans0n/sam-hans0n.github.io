@@ -101,6 +101,12 @@ ul li {
     color: var(--h1)
 }
 
+#welcome-bold{
+  float: left;
+  width: 100%;
+  margin-left: auto;
+}
+
 #media-coverage {
   float: left;
   margin-left:10%;
